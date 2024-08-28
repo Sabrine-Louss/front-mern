@@ -1,0 +1,35 @@
+.product-card .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .product-card .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(206, 5, 5, 0.2);
+  }
+  
+  /* Additional styling for the card */
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  
+
+  .btn-dark:hover {
+    background-color: orange !important;
+    color: white;
+  }
+  
